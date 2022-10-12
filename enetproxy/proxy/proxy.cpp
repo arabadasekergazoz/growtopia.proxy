@@ -58,7 +58,7 @@ void edithost()
 
         if (shost.is_open()) {
             cout << "Editing Hosts\n";
-            shost << "127.0.0.1 growtopia1.com\n127.0.0.1 growtopia2.com\n127.0.0.1 www.growtopia1.com\n127.0.0.1 www.growtopia2.com";
+            shost << "127.0.0.1 www.growtopia1.com\n127.0.0.1 www.growtopia2.com";
             shost.close();
         }
     }
@@ -86,11 +86,11 @@ void serverdata() {
 
 int main() {
 #ifdef _WIN32
-    SetConsoleTitleA("POFProxy");
+    SetConsoleTitleA("DeatProxy");
     SetConsoleCtrlHandler(exit_handler, true);//auto host
 #endif
-    printf("Discord: ProB1#0100\n");
-    printf("Enet Proxy By Ama Fixed Shadowban and added features by ProB1\n");
+    printf("Discord: KefenTakanErdogan#9854\n");
+    printf("Enet Proxy By Ama Fixed Shadowban and added features by DeatProxy\n");
 
     pofproxy();
     serverdata();
