@@ -8,7 +8,7 @@
 #include <sstream>
 #include <vector>
 
-std::string gt::version = "4.03";
+std::string gt::version = "4.29";
 std::string gt::pofversion = "0.1";
 std::string gt::pofstatus = "Updated";
 std::string gt::flag = "mm";
